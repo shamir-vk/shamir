@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Download, Linkedin, Instagram, Dribbble, Figma, Sparkles } from "lucide-react";
+import { ArrowDown, Download, Sparkles } from "lucide-react";
+import { Linkedin, Instagram, Dribbble, Figma } from "./icons";
 import profile from "@/assets/profile.jpg";
 
 const skills = ["Branding", "Social Media Design", "Logo Design", "UI Design", "Print Design"];

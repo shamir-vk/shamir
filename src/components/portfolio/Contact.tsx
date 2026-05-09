@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Send, Linkedin, Instagram, Dribbble, Figma } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Linkedin, Instagram, Dribbble, Figma } from "./icons";
 import { SectionHeading } from "./SectionHeading";
 import { useState } from "react";
 

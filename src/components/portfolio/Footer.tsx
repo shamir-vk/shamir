@@ -1,4 +1,4 @@
-import { Linkedin, Instagram, Dribbble, Figma } from "lucide-react";
+import { Linkedin, Instagram, Dribbble, Figma } from "./icons";
 
 export function Footer() {
   return (
