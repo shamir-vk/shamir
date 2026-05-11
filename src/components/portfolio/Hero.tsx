@@ -25,7 +25,7 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
-            Hi, I'm <span className="text-gradient">Aria Lumen</span>
+            Hi, I'm <span className="text-gradient">Shamir VK</span>
             <br />
             <span className="text-muted-foreground">Crafting brands that</span>
             <br />
@@ -97,7 +97,7 @@ export function Hero() {
             <div className="overflow-hidden rounded-[1.5rem]">
               <img
                 src={profile}
-                alt="Aria Lumen, graphic designer"
+                alt="Shamir VK, graphic designer"
                 width={896}
                 height={1152}
                 className="h-auto w-full transition-transform duration-700 hover:scale-105"
@@ -110,7 +110,7 @@ export function Hero() {
 
             <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 glass-strong rounded-2xl px-5 py-3 text-center">
               <div className="text-xs text-muted-foreground">Based in</div>
-              <div className="font-display text-sm font-semibold">Lisbon · Remote 🌎</div>
+              <div className="font-display text-sm font-semibold">Nilambur, Kerala 🌎</div>
             </div>
           </div>
 
