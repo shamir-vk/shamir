@@ -6,8 +6,8 @@ const skills = [
   { name: "Adobe Illustrator", value: 98, grad: "var(--gradient-pink)" },
   { name: "Adobe InDesign", value: 90, grad: "var(--gradient-cyan)" },
   { name: "Typography", value: 92, grad: "var(--gradient-green)" },
-  { name: "Branding", value: 96, grad: "var(--gradient-neon)" },
-  { name: "Color Theory", value: 94, grad: "var(--gradient-pink)" },
+  { name: "Adobe After Effects", value: 88, grad: "var(--gradient-neon)" },
+  { name: "Adobe Lightroom", value: 90, grad: "var(--gradient-pink)" },
 ];
 
 export function Skills() {
