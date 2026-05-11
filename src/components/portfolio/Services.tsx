@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import { Palette, Sparkles, Share2, Package, Layout, Newspaper } from "lucide-react";
+import { Image, Palette, Film, Type, Sparkles, BookOpen } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
 const services = [
-  { icon: Palette, title: "Logo Design", desc: "Distinctive marks engineered for longevity, scale and meaning.", grad: "var(--gradient-neon)" },
-  { icon: Sparkles, title: "Brand Identity", desc: "Full visual systems: typography, color, voice, guidelines.", grad: "var(--gradient-pink)" },
-  { icon: Share2, title: "Social Media Design", desc: "Scroll-stopping content systems built for consistency.", grad: "var(--gradient-cyan)" },
-  { icon: Package, title: "Packaging Design", desc: "Tactile, premium packaging that earns shelf space.", grad: "var(--gradient-green)" },
-  { icon: Layout, title: "UI/UX Design", desc: "Interfaces that feel inevitable — clean, fast, delightful.", grad: "var(--gradient-neon)" },
-  { icon: Newspaper, title: "Print Design", desc: "Editorial, brochures, posters with museum-grade craft.", grad: "var(--gradient-pink)" },
+  { icon: Image, title: "Poster Design", desc: "Bold, attention-grabbing posters crafted for impact and storytelling.", grad: "var(--gradient-neon)" },
+  { icon: Palette, title: "Logo Design", desc: "Distinctive marks engineered for longevity, scale and meaning.", grad: "var(--gradient-pink)" },
+  { icon: Film, title: "Video Editing", desc: "Cinematic edits with seamless cuts, color, and sound design.", grad: "var(--gradient-cyan)" },
+  { icon: Type, title: "Typography", desc: "Custom letterforms and type systems with editorial precision.", grad: "var(--gradient-green)" },
+  { icon: Sparkles, title: "Animations", desc: "Motion graphics and micro-animations that bring brands to life.", grad: "var(--gradient-neon)" },
+  { icon: BookOpen, title: "Book Layout", desc: "Refined editorial layouts for books, magazines, and zines.", grad: "var(--gradient-pink)" },
 ];
 
 export function Services() {
