@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import profile from "@/assets/profile.jpg";
-import profile2 from "@/assets/profile-2.jpg";
 
 const stats = [
   { value: 50, suffix: "+", label: "Projects Completed", grad: "var(--gradient-neon)" },
@@ -97,21 +96,6 @@ export function About() {
               />
             </div>
             <div className="absolute inset-0 rounded-full border border-white/10" />
-
-            <motion.div
-              initial={{ opacity: 0, y: 20, rotate: 6 }}
-              whileInView={{ opacity: 1, y: 0, rotate: 6 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7, delay: 0.2 }}
-              className="absolute -bottom-10 -right-10 h-44 w-32 sm:h-52 sm:w-40 overflow-hidden rounded-2xl glass-strong p-1.5 neon-border"
-            >
-              <img
-                src={profile2}
-                alt="Shamir VK"
-                loading="lazy"
-                className="h-full w-full rounded-xl object-cover"
-              />
-            </motion.div>
           </motion.div>
 
           <div className="mt-10 grid grid-cols-2 gap-4">
