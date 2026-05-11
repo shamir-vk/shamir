@@ -36,7 +36,7 @@ export function Footer() {
       </div>
       <div className="container mx-auto mt-10 max-w-7xl px-6">
         <div className="flex flex-col items-center justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© {new Date().getFullYear()} Aria Lumen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Shamir VK. All rights reserved.</p>
           <p>Designed & built with obsession.</p>
         </div>
       </div>

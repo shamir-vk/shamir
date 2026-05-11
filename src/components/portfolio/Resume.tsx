@@ -3,7 +3,7 @@ import { Download, GraduationCap, Award, Briefcase, Trophy } from "lucide-react"
 import { SectionHeading } from "./SectionHeading";
 
 const items = [
-  { icon: Briefcase, year: "2023 — Now", title: "Senior Brand Designer", place: "Independent · Lisbon", color: "var(--neon-purple)" },
+  { icon: Briefcase, year: "2023 — Now", title: "Senior Brand Designer", place: "Independent · Kerala", color: "var(--neon-purple)" },
   { icon: Briefcase, year: "2021 — 2023", title: "Lead Designer", place: "Studio Northern, Berlin", color: "var(--neon-blue)" },
   { icon: GraduationCap, year: "2019 — 2021", title: "MA Visual Communication", place: "Royal College of Art", color: "var(--neon-cyan)" },
   { icon: Award, year: "2022", title: "Awwwards Site of the Day", place: "Pulse Brand Launch", color: "var(--neon-pink)" },
