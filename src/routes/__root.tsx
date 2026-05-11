@@ -72,18 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
+      { title: "Shamir Karulai" },
       { name: "description", content: "A modern, interactive personal portfolio website for graphic designers, featuring a futuristic dark theme and 3D glassmorphism." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
+      { property: "og:title", content: "Shamir Karulai" },
       { property: "og:description", content: "A modern, interactive personal portfolio website for graphic designers, featuring a futuristic dark theme and 3D glassmorphism." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:title", content: "Shamir Karulai" },
       { name: "twitter:description", content: "A modern, interactive personal portfolio website for graphic designers, featuring a futuristic dark theme and 3D glassmorphism." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7b098c97-7cf8-462e-829f-28a61858e9e7/id-preview-59eabe7e--ffb0d12a-bed7-4fce-9a21-d85d07691853.lovable.app-1778472917501.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7b098c97-7cf8-462e-829f-28a61858e9e7/id-preview-59eabe7e--ffb0d12a-bed7-4fce-9a21-d85d07691853.lovable.app-1778472917501.png" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/3p8tGKM7sxOEgqVlxkVLtqrxVCq1/social-images/social-1778477822769-shami_coverimage.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/3p8tGKM7sxOEgqVlxkVLtqrxVCq1/social-images/social-1778477822769-shami_coverimage.webp" },
     ],
     links: [
       {
