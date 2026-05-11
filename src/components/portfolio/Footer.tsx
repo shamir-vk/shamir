@@ -6,8 +6,8 @@ export function Footer() {
       <div className="container mx-auto grid max-w-7xl gap-8 px-6 md:grid-cols-3 md:items-start">
         <div>
           <div className="flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center rounded-xl bg-[image:var(--gradient-neon)] font-display font-bold">A</span>
-            <span className="font-display text-lg font-semibold">Aria<span className="text-gradient-neon">.studio</span></span>
+            <span className="grid h-9 w-9 place-items-center rounded-xl bg-[image:var(--gradient-neon)] font-display font-bold">S</span>
+            <span className="font-display text-lg font-semibold">Shamir<span className="text-gradient-neon">.vk</span></span>
           </div>
           <p className="mt-3 max-w-sm text-sm text-muted-foreground">
             Crafting brands that glow in the dark. Independent design studio, available worldwide.
@@ -36,7 +36,7 @@ export function Footer() {
       </div>
       <div className="container mx-auto mt-10 max-w-7xl px-6">
         <div className="flex flex-col items-center justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© {new Date().getFullYear()} Aria Lumen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Shamir VK. All rights reserved.</p>
           <p>Designed & built with obsession.</p>
         </div>
       </div>

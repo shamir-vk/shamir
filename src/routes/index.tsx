@@ -16,13 +16,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Aria Lumen — Graphic Designer & Visual Creator" },
+      { title: "Shamir VK — Graphic Designer & Visual Creator" },
       {
         name: "description",
         content:
           "Independent graphic designer crafting luxury brand identities, packaging, social and UI for ambitious brands worldwide.",
       },
-      { property: "og:title", content: "Aria Lumen — Graphic Designer & Visual Creator" },
+      { property: "og:title", content: "Shamir VK — Graphic Designer & Visual Creator" },
       {
         property: "og:description",
         content: "Premium brand identity, packaging and digital design.",

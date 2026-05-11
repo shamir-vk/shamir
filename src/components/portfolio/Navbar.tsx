@@ -35,7 +35,7 @@ export function Navbar() {
           <span className="grid h-8 w-8 place-items-center rounded-xl bg-[image:var(--gradient-neon)] font-display text-sm font-bold">
             A
           </span>
-          <span className="font-display text-sm font-semibold tracking-tight">Aria<span className="text-gradient-neon">.studio</span></span>
+          <span className="font-display text-sm font-semibold tracking-tight">Shamir<span className="text-gradient-neon">.vk</span></span>
         </a>
         <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => (

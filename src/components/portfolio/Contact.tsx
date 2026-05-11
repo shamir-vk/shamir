@@ -5,9 +5,9 @@ import { SectionHeading } from "./SectionHeading";
 import { useState } from "react";
 
 const info = [
-  { icon: Mail, label: "Email", value: "hello@aria.studio", color: "var(--neon-purple)" },
-  { icon: Phone, label: "Phone", value: "+351 912 000 000", color: "var(--neon-cyan)" },
-  { icon: MapPin, label: "Location", value: "Lisbon · Remote 🌎", color: "var(--neon-pink)" },
+  { icon: Mail, label: "Email", value: "shamirvk84@gmail.com", color: "var(--neon-purple)" },
+  { icon: Phone, label: "Phone", value: "+91 82810 43875", color: "var(--neon-cyan)" },
+  { icon: MapPin, label: "Location", value: "Nilambur, Malappuram, Kerala", color: "var(--neon-pink)" },
 ];
 
 export function Contact() {
