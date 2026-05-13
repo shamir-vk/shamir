@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import profile from "@/assets/profile.jpg";
-import profile2 from "@/assets/profile-2.jpg";
+
 
 const stats = [
   { value: 50, suffix: "+", label: "Projects Completed", grad: "var(--gradient-neon)" },
