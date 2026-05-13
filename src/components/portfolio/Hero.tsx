@@ -24,7 +24,7 @@ export function Hero() {
             Available for Freelance Work
           </div>
 
-          <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
+          <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl px-[95px] py-0 pr-[94px] pb-[4px] my-0 mx-0 ml-px mr-px pl-[32px]">
             Hi, I'm <span className="mt-6 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl bg-stone-300/0">Shamir VK</span>
             <br />
             <span className="text-muted-foreground text-2xl text-blue-100 font-thin">Graphic Designer & Visual Creator</span>
