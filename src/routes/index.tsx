@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Background } from "@/components/portfolio/Background";
-import { WaveBackground } from "@/components/portfolio/WaveBackground";
 import { CursorGlow } from "@/components/portfolio/CursorGlow";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
@@ -42,7 +41,6 @@ function Index() {
   return (
     <div className="relative min-h-screen">
       <Background />
-      <WaveBackground />
       <CursorGlow />
       <Navbar />
       <main>
