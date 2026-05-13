@@ -78,27 +78,6 @@ export function About() {
         </motion.div>
 
         <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-            className="relative mx-auto h-72 w-72 sm:h-80 sm:w-80"
-          >
-            <div className="absolute inset-0 rounded-full bg-[image:var(--gradient-neon)] opacity-50 blur-2xl" />
-            <div className="relative h-full w-full overflow-hidden rounded-full glass-strong p-2">
-              <img
-                src={profile}
-                alt="Shamir VK portrait"
-                width={1080}
-                height={1080}
-                loading="lazy"
-                className="h-full w-full rounded-full object-cover"
-              />
-            </div>
-            <div className="absolute inset-0 rounded-full border border-white/10" />
-          </motion.div>
-
           <div className="mt-10 grid grid-cols-2 gap-4">
             {stats.map((s, i) => (
               <motion.div
