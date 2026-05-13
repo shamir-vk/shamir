@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import profile from "@/assets/profile.jpg";
+
 
 
 const stats = [
