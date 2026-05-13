@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import profile from "@/assets/profile.jpg";
-import profile2 from "@/assets/profile-2.jpg";
+
 
 const stats = [
   { value: 50, suffix: "+", label: "Projects Completed", grad: "var(--gradient-neon)" },
@@ -97,19 +97,6 @@ export function About() {
               />
             </div>
             <div className="absolute inset-0 rounded-full border border-white/10" />
-
-            <motion.div
-              animate={{ y: [0, -10, 0] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -bottom-6 -right-6 h-32 w-24 sm:h-40 sm:w-32 overflow-hidden rounded-2xl glass-strong p-1.5 neon-border"
-            >
-              <img
-                src={profile2}
-                alt="Shamir VK in the pines"
-                loading="lazy"
-                className="h-full w-full rounded-xl object-cover"
-              />
-            </motion.div>
           </motion.div>
 
           <div className="mt-10 grid grid-cols-2 gap-4">
