@@ -25,11 +25,11 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl px-[95px] py-0 pr-[94px] pb-[4px] my-0 mx-0 ml-px mr-px pl-[32px]">
-            Hey, I'm <span className="mt-6 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl bg-stone-300/0">Shamir vk</span>
+            Hey, I'm <span className="mt-6 font-display font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl pr-[94px] pb-[4px] ml-px mr-px pl-[32px] text-7xl px-0 py-0 mx-0 my-0">Shamir vk</span>
             <br />
             <span className="text-muted-foreground text-2xl text-blue-100 font-thin">Graphic Designer & Visual Creator</span>
             <br />
-            <span className="text-gradient-neon">glow in the dark.</span>
+            <span className="text-gradient-neon">​</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
