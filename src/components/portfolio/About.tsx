@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import portrait from "@/assets/shamir-portrait.png.asset.json";
 
 
 
@@ -78,6 +79,27 @@ export function About() {
         </motion.div>
 
         <div className="relative">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.94 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="relative mx-auto aspect-square w-64 sm:w-80"
+          >
+            <div
+              className="absolute -inset-4 rounded-full opacity-40"
+              style={{ background: "var(--gradient-neon)", filter: "blur(40px)" }}
+            />
+            <div className="glass relative h-full w-full overflow-hidden rounded-full p-1.5">
+              <img
+                src={portrait.url}
+                alt="Shamir VK, graphic designer, portrait"
+                loading="lazy"
+                className="h-full w-full rounded-full object-cover"
+              />
+            </div>
+          </motion.div>
+
           <div className="mt-10 grid grid-cols-2 gap-4">
             {stats.map((s, i) => (
               <motion.div
