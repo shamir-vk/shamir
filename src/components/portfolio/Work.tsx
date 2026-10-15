@@ -9,12 +9,12 @@ import p5 from "@/assets/project-5.jpg";
 import p6 from "@/assets/project-6.jpg";
 
 const projects = [
-  { img: p1, title: "Lumière Identity", category: "Branding", desc: "A holographic identity for a boutique perfumery brand." },
-  { img: p2, title: "Pulse Social Kit", category: "Social Media", desc: "90-day content system for a fintech launch." },
-  { img: p3, title: "Onyx Packaging", category: "Packaging", desc: "Premium unboxing for a luxury skincare line." },
-  { img: p4, title: "Aether Dashboard", category: "UI Design", desc: "Glassmorphism analytics dashboard for SaaS." },
-  { img: p5, title: "Fold Magazine", category: "Print Design", desc: "Editorial system for a quarterly culture mag." },
-  { img: p6, title: "Hex Mark", category: "Branding", desc: "Geometric monogram for a Web3 collective." },
+  { img: p1, title: "Poster design", category: "ADOBE PHOTOSHOP", desc: "Congratulations,programes,greeting soical media designs" },
+  { img: p2, title: "Logo", category: "ADOBE ILLUSTRATOR", desc: "A minimalist geometric logo identity crafted with bold shapes, clean lines, and a modern visual language" },
+  { img: p3, title: "Content Video", category: "CAPCUT", desc: "They use visuals, text, music, and editing to attract viewers on social media platforms." },
+  { img: p4, title: "Animation video", category: "ADOBE AFTER EFFECT", desc: "Animation videos use moving images, characters, and visual effects to tell stories or explain ideas." },
+  { img: p5, title: "Memento Design", category: "PRINT DESIGN", desc: "Memento design is a creative design made to preserve memories of special moments and events" },
+  { img: p6, title: "Mockup Design", category: "CHAT GPT", desc: "Mockup design is a realistic presentation of a design on products like T-shirts, posters, packaging, or devices." },
 ];
 
 export function Work() {
