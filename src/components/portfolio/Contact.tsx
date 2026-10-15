@@ -5,8 +5,8 @@ import { SectionHeading } from "./SectionHeading";
 import { useState } from "react";
 
 const info = [
-  { icon: Mail, label: "Email", value: "shamirvk84@gmail.com", color: "var(--neon-purple)" },
-  { icon: Phone, label: "Phone", value: "+91 82810 43875", color: "var(--neon-cyan)" },
+  { icon: Mail, label: "Email", value: "shamirkarulai177@gmail.com", color: "var(--neon-purple)" },
+  { icon: Phone, label: "Phone", value: "9495058375", color: "var(--neon-cyan)" },
   { icon: MapPin, label: "Location", value: "Nilambur, Malappuram, Kerala", color: "var(--neon-pink)" },
 ];
 
