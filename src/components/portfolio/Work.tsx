@@ -1,20 +1,20 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import p1 from "@/assets/congratulations poster malayalam.png";
-import p2 from "<img width="736" height="736" alt="Image" src="https://github.com/user-attachments/assets/1e38ec6a-cf7e-41da-b508-ff87d53931fe" />";
-import p3 from "https://github.com/user-attachments/assets/ef7d6e3b-422b-4d69-9b52-769391b83fe7";
-import p4 from "https://github.com/user-attachments/assets/55db54ff-360b-477c-bcb5-0d9f6a46519b";
-import p5 from "<img width="1086" height="1448" alt="Image" src="https://github.com/user-attachments/assets/9b0b23d6-baa1-4ef5-821c-8cedd64b5583" />";
-import p6 from "@/assets/project-6.jpg";
+import a1 from "@/assets/congratulations_poster_malayalam.png.asset.json";
+import a2 from "@/assets/adab_Logo_Design.png.asset.json";
+import a3 from "@/assets/321ed6a328506436770c47bedf5f33cf_720w.mp4.asset.json";
+import a4 from "@/assets/915ed8d36d3809d160b1bfef232bfd90_720w.mp4.asset.json";
+import a5 from "@/assets/ChatGPT_Image_Oct_15_2026_10_47_04_AM.png.asset.json";
+import a6 from "@/assets/poster_mockup_design.jpg.asset.json";
 
-const projects = [
-  { img: p1, title: "Poster design", category: "ADOBE PHOTOSHOP", desc: "Congratulations,programes,greeting soical media designs" },
-  { img: p2, title: "Logo", category: "ADOBE ILLUSTRATOR", desc: "A minimalist geometric logo identity crafted with bold shapes, clean lines, and a modern visual language" },
-  { img: p3, title: "Content Video", category: "CAPCUT", desc: "They use visuals, text, music, and editing to attract viewers on social media platforms." },
-  { img: p4, title: "Animation video", category: "ADOBE AFTER EFFECT", desc: "Animation videos use moving images, characters, and visual effects to tell stories or explain ideas." },
-  { img: p5, title: "Memento Design", category: "PRINT DESIGN", desc: "Memento design is a creative design made to preserve memories of special moments and events" },
-  { img: p6, title: "Mockup Design", category: "CHAT GPT", desc: "Mockup design is a realistic presentation of a design on products like T-shirts, posters, packaging, or devices." },
+const projects: { img: string; video?: boolean; title: string; category: string; desc: string }[] = [
+  { img: a1.url, title: "Poster design", category: "ADOBE PHOTOSHOP", desc: "Congratulations,programes,greeting soical media designs" },
+  { img: a2.url, title: "Logo", category: "ADOBE ILLUSTRATOR", desc: "A minimalist geometric logo identity crafted with bold shapes, clean lines, and a modern visual language" },
+  { img: a3.url, video: true, title: "Content Video", category: "CAPCUT", desc: "They use visuals, text, music, and editing to attract viewers on social media platforms." },
+  { img: a4.url, video: true, title: "Animation video", category: "ADOBE AFTER EFFECT", desc: "Animation videos use moving images, characters, and visual effects to tell stories or explain ideas." },
+  { img: a5.url, title: "Memento Design", category: "PRINT DESIGN", desc: "Memento design is a creative design made to preserve memories of special moments and events" },
+  { img: a6.url, title: "Mockup Design", category: "CHAT GPT", desc: "Mockup design is a realistic presentation of a design on products like T-shirts, posters, packaging, or devices." },
 ];
 
 export function Work() {
@@ -37,14 +37,25 @@ export function Work() {
               className="group relative overflow-hidden rounded-3xl glass p-3"
             >
               <div className="relative overflow-hidden rounded-2xl">
-                <img
-                  src={p.img}
-                  alt={p.title}
-                  width={1024}
-                  height={768}
-                  loading="lazy"
-                  className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
+                {p.video ? (
+                  <video
+                    src={p.img}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                ) : (
+                  <img
+                    src={p.img}
+                    alt={p.title}
+                    width={1024}
+                    height={768}
+                    loading="lazy"
+                    className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 transition group-hover:opacity-100" />
                 <div className="absolute inset-x-4 bottom-4 translate-y-2 opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">
                   <button className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-semibold text-black">
