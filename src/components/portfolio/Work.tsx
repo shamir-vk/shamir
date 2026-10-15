@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
-import p4 from "@/assets/project-4.jpg";
-import p5 from "@/assets/project-5.jpg";
+import p2 from "<img width="736" height="736" alt="Image" src="https://github.com/user-attachments/assets/1e38ec6a-cf7e-41da-b508-ff87d53931fe" />";
+import p3 from "https://github.com/user-attachments/assets/ef7d6e3b-422b-4d69-9b52-769391b83fe7";
+import p4 from "https://github.com/user-attachments/assets/55db54ff-360b-477c-bcb5-0d9f6a46519b";
+import p5 from "<img width="1086" height="1448" alt="Image" src="https://github.com/user-attachments/assets/9b0b23d6-baa1-4ef5-821c-8cedd64b5583" />";
 import p6 from "@/assets/project-6.jpg";
 
 const projects = [
