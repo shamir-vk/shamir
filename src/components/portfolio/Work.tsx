@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import p1 from "@/congratulations poster malayalam.png";
+import p1 from "@/assets/congratulations poster malayalam.png";
 import p2 from "<img width="736" height="736" alt="Image" src="https://github.com/user-attachments/assets/1e38ec6a-cf7e-41da-b508-ff87d53931fe" />";
 import p3 from "https://github.com/user-attachments/assets/ef7d6e3b-422b-4d69-9b52-769391b83fe7";
 import p4 from "https://github.com/user-attachments/assets/55db54ff-360b-477c-bcb5-0d9f6a46519b";
