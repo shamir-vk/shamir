@@ -5,7 +5,7 @@ const skills = [
   { name: "Adobe Photoshop", value: 95, grad: "var(--gradient-neon)" },
   { name: "Adobe Illustrator", value: 98, grad: "var(--gradient-pink)" },
   { name: "Adobe InDesign", value: 90, grad: "var(--gradient-cyan)" },
-  { name: "Typography", value: 92, grad: "var(--gradient-green)" },
+  { name: "Adobe Premiere pro", value: 92, grad: "var(--gradient-green)" },
   { name: "Adobe After Effects", value: 88, grad: "var(--gradient-neon)" },
   { name: "Adobe Lightroom", value: 90, grad: "var(--gradient-pink)" },
 ];
