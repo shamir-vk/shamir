@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1794131647427,
+      "tag": "0000_add_secure_portfolio_project_management",
+      "breakpoints": true
+    }
+  ]
 }

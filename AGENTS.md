@@ -1,2 +1,3 @@
 - Keep editable portfolio content in Lovable Cloud with explicit public-read and admin-only write policies, because portfolio edits must persist across visitors while sensitive changes stay server-authorized.
 - Keep admin roles separate from profile data and provision the owner role only for the verified portfolio-owner email, because user-editable profile values must never grant privileges.
+- Store Work entries in `public.portfolio_projects` and media in the private `portfolio-work` bucket; issue signed media URLs for public display and guard every edit with verified-owner admin authorization.
