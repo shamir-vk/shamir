@@ -1,6 +1,6 @@
-## Secure Work manager
-- [ ] Add profile storage and provision admin access only after the portfolio-owner email is confirmed
-- [ ] Store the existing Work items and their order in Lovable Cloud
-- [ ] Add secure controls to create, edit, reorder, delete, and upload project media
-- [ ] Render saved projects in the public Work section
-- [ ] Verify the preview, database, and build logs
+## Portfolio project pages and admin
+- [ ] Add public project detail pages with related work
+- [ ] Connect Featured Work to saved projects and preserve current project order
+- [ ] Build owner-only project management, including media upload and reorder
+- [ ] Connect the contact form to a private admin inbox and editable contact details
+- [ ] Verify sign-in, public project pages, admin actions, and build logs
