@@ -8,6 +8,20 @@
       "when": 1794131647427,
       "tag": "0000_add_secure_portfolio_project_management",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1794724866492,
+      "tag": "0001_project_pages_and_contact_admin",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1794724909777,
+      "tag": "0002_allow_public_project_media_signing",
+      "breakpoints": true
     }
   ]
 }
