@@ -1,0 +1,2 @@
+import { createFileRoute, redirect } from '@tanstack/react-router';
+export const Route = createFileRoute('/admin_/login')({ beforeLoad: () => { throw redirect({ to: '/auth' }); }, head: () => ({ meta: [{ title: 'Admin login — Shamir VK' }, { name: 'description', content: 'Sign in to manage Shamir VK’s portfolio.' }, { property: 'og:title', content: 'Admin login — Shamir VK' }, { property: 'og:description', content: 'Sign in to manage Shamir VK’s portfolio.' }, { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary' }] }) });

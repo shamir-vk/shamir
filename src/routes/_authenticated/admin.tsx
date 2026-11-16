@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { AdminPanel } from '@/components/admin/AdminPanel';
+export const Route = createFileRoute('/_authenticated/admin')({ head: () => ({ meta: [{ title: 'Portfolio admin — Shamir VK' }, { name: 'description', content: 'Manage projects, contact details and messages.' }, { property: 'og:title', content: 'Portfolio admin — Shamir VK' }, { property: 'og:description', content: 'Manage projects, contact details and messages.' }, { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary' }, { name: 'robots', content: 'noindex' }] }), component: AdminPanel });

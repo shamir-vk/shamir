@@ -11,8 +11,10 @@ import { Testimonials } from "@/components/portfolio/Testimonials";
 import { Resume } from "@/components/portfolio/Resume";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
+import { portfolioQuery } from "@/lib/portfolio-query";
 
 export const Route = createFileRoute("/")({
+  loader: ({ context }) => context.queryClient.ensureQueryData(portfolioQuery),
   component: Index,
   head: () => ({
     meta: [
@@ -23,6 +25,8 @@ export const Route = createFileRoute("/")({
           "Independent graphic designer crafting luxury brand identities, packaging, social and UI for ambitious brands worldwide.",
       },
       { property: "og:title", content: "Shamir VK — Graphic Designer & Visual Creator" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       {
         property: "og:description",
         content: "Premium brand identity, packaging and digital design.",
