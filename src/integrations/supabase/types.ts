@@ -20,6 +20,7 @@ export type Database = {
           id: number
           location: string
           phone: string
+          social_links: Json
           updated_at: string
         }
         Insert: {
@@ -27,6 +28,7 @@ export type Database = {
           id?: number
           location?: string
           phone?: string
+          social_links?: Json
           updated_at?: string
         }
         Update: {
@@ -34,6 +36,7 @@ export type Database = {
           id?: number
           location?: string
           phone?: string
+          social_links?: Json
           updated_at?: string
         }
         Relationships: []
@@ -45,6 +48,7 @@ export type Database = {
           id: string
           message: string
           name: string
+          status: string
           subject: string
         }
         Insert: {
@@ -53,6 +57,7 @@ export type Database = {
           id?: string
           message: string
           name: string
+          status?: string
           subject: string
         }
         Update: {
@@ -61,6 +66,7 @@ export type Database = {
           id?: string
           message?: string
           name?: string
+          status?: string
           subject?: string
         }
         Relationships: []
@@ -71,11 +77,15 @@ export type Database = {
           created_at: string
           description: string
           id: string
+          is_featured: boolean
+          is_published: boolean
+          media_gallery: Json
           media_type: string
           media_url: string
           slug: string | null
           sort_order: number
           title: string
+          tools: string[]
           updated_at: string
         }
         Insert: {
@@ -83,11 +93,15 @@ export type Database = {
           created_at?: string
           description?: string
           id?: string
+          is_featured?: boolean
+          is_published?: boolean
+          media_gallery?: Json
           media_type?: string
           media_url: string
           slug?: string | null
           sort_order?: number
           title: string
+          tools?: string[]
           updated_at?: string
         }
         Update: {
@@ -95,11 +109,15 @@ export type Database = {
           created_at?: string
           description?: string
           id?: string
+          is_featured?: boolean
+          is_published?: boolean
+          media_gallery?: Json
           media_type?: string
           media_url?: string
           slug?: string | null
           sort_order?: number
           title?: string
+          tools?: string[]
           updated_at?: string
         }
         Relationships: []

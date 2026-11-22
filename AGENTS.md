@@ -3,3 +3,4 @@
 - Store Work entries in `public.portfolio_projects` and media in the private `portfolio-work` bucket; issue signed media URLs for public display and guard every edit with verified-owner admin authorization.
 - Share public portfolio data through one loader-backed query; project detail pages reuse it so edits appear consistently across views.
 - Keep admin pages beneath the managed authenticated layout; every admin server function additionally revalidates the owner and admin role.
+- Implement project publication, media-gallery signing, and contact-message status using additive migrations and the shared validated server-function boundary, so public reads and owner-only changes remain consistent.

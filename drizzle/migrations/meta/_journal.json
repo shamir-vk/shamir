@@ -22,6 +22,13 @@
       "when": 1794724909777,
       "tag": "0002_allow_public_project_media_signing",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795335474302,
+      "tag": "0003_extend_portfolio_publishing_gallery_and_inbox",
+      "breakpoints": true
     }
   ]
 }
